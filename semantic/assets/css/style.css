@@ -1,0 +1,312 @@
+*{
+    margin:0;
+    padding:0;
+}
+.ui.inverted.segment.background-image
+{
+    background-image: url("../img/espresso-4010576_1280.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.content {
+    font-size: 1.25em;
+}
+.ui.button {
+    border: 1px solid darkgray;
+}
+.hidden.menu {
+    display: none;
+}
+.masthead.segment {
+    min-height: 700px;
+    padding: 1em 0;
+}
+.masthead .logo.item img {
+    margin-right: 1em;
+}
+.masthead .ui.menu .ui.button {
+    margin-left: 0.5em;
+}
+.masthead h1.ui.header {
+    margin-top: 3em;
+    margin-bottom: 0;
+    font-size: 4em;
+    font-weight: normal;
+}
+.masthead h2 {
+    font-size: 1.7em;
+    font-weight: normal;
+}
+.ui.vertical.stripe {
+    padding: 8em 0;
+}
+.ui.vertical.stripe h3 {
+    font-size: 2em;
+}
+.ui.vertical.stripe .button + h3,
+.ui.vertical.stripe p + h3 {
+    margin-top: 3em;
+}
+.ui.vertical.stripe .floated.image {
+    clear: both;
+}
+.ui.vertical.stripe p {
+    font-size: 1.33em;
+}
+.ui.vertical.stripe .horizontal.divider {
+    margin: 3em 0;
+}
+.ui.text.container {
+    font-size: 1.5em;
+    opacity:0.5;
+    color:black;
+    border: 1px solid white;
+}
+.ui.text.container:hover {
+    transition-property: opacity,color,border;
+    transition-duration: 0.25s;
+    opacity:1;
+    color:teal;
+    border: 1px solid teal;
+    border-radius: 15px;
+}
+.padding {
+    padding: 50px;
+}
+.margin {
+    margin: 50px;
+}
+.marginB{
+    margin-bottom:50px;
+}
+.quote.stripe.segment {
+    padding: 0;
+}
+.quote.stripe.segment .grid .column {
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+.footer.segment {
+    padding: 5em 0;
+}
+.secondary.pointing.menu .toc.item {
+    display: none;
+}
+body > .grid {
+    height: 100%;
+}
+.image {
+    margin-top: -100px;
+}
+.column {
+    max-width: 850px;
+    margin-bottom: 90px;
+    margin-top: 90px;
+}
+
+.border-top-left {
+    width:50%;
+    height:50%;
+    background-color:cyan;
+    transform:rotate(45deg);
+    -ms-transform:rotate(45deg); /* Internet Explorer */
+    -moz-transform:rotate(45deg); /* Firefox */
+    -webkit-transform:rotate(45deg); /* Safari et Chrome */
+    -o-transform:rotate(45deg); /* Opera */
+}
+@media only screen and (max-width: 700px) {
+    .ui.fixed.menu {
+        display: none !important;
+    }
+    .secondary.pointing.menu .item,
+    .secondary.pointing.menu .menu {
+        display: none;
+        clear: both;
+    }
+    .secondary.pointing.menu .toc.item {
+        display: block;
+    }
+    .masthead.segment {
+        min-height: 350px;
+    }
+    .masthead h1.ui.header {
+        font-size: 2em;
+        margin-top: 1.5em;
+    }
+    .masthead h2 {
+        margin-top: 0.5em;
+        font-size: 1.5em;
+    }
+}
+.margin50 {
+    margin: 0 auto;
+    width: 50%;
+}
+.margin0 {
+    margin: 0 auto;
+}
+.width100 {
+    width: 100%;
+}
+#saveCV{
+    margin-bottom: 30px;
+}
+
+/*==================================================================================================*/
+.clear {
+    clear: both;
+}
+.page-wrap {
+    width: 800px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 2px black solid;
+}
+.important {
+    font-size: 20px;
+    margin: 0 0 6px 0;
+    position: relative;
+}
+.important span {
+    position: absolute;
+    bottom: 0; right: 0;
+    font-style: italic;
+    font-size: 16px;
+    color: #999;
+    font-weight: normal;
+}
+.email {
+    color: #999;
+    text-decoration: none;
+    border-bottom: 1px dotted #999;
+}
+.email:hover {
+    border-bottom-style: solid;
+    color: black;
+}
+ul {
+    margin: 0 0 32px 17px;
+}
+#objective {
+    width: 500px;
+    float: left;
+}
+#objective p {
+    font-style: italic;
+    color: #666;
+}
+dt {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 18px;
+    text-align: right;
+    padding: 0 26px 0 0;
+    width: 150px;
+    float: left;
+    padding-top: 20px;
+}
+dd {
+    width: 600px;
+    float: right;
+    padding-left:10px;
+    border-left: 1px solid black;
+    margin: 10px 0;
+}
+#cv-1 .page-wrap{
+    background-color: rgba(250, 250, 250, 0.5);
+}
+#cv-1 #nomOnCV {
+    width:30%;
+    padding:10px;
+    margin: 0px auto 15px auto;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2em;
+    box-shadow: 0px 1px 3px 0px black;
+    border: none;
+    border-radius: 5px;
+}
+#cv-1 .bio {
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+    border-top:solid 1px #FF8300;
+    border-bottom:solid 1px #FF8300;
+    border-radius: 10px;
+    width:75%;
+    color:#007CFF;
+    font-size: 1.1em;
+}
+#cv-1 li{
+    list-style-type:square;
+    color:#007CFF;
+}
+#cv-1 .important, #cv-1 strong{
+    color:#FF8300;
+    border-bottom:1px solid #FF8300;
+    text-transform: capitalize;
+}
+#cv-1 dt{
+    color:#007CFF;
+}
+#cv-1 dd{
+    width: 600px;
+    float: right;
+    padding-left:10px;
+    border-left: 1px solid black;
+    margin: 10px 0;
+}
+#cv-1 .email{
+    text-decoration: none;
+    border: none;
+    color:#FF8300;
+}
+#cv-2 #nomOnCV {
+    width:30%;
+    padding:10px;
+    margin: 0px auto 15px auto;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2em;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+#cv-2 .bio {
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px;
+    border-top:solid 1px black;
+    border-bottom:solid 1px black;
+    width:75%;
+    font-size: 1.1em;
+}
+
+#cv-3 #nomOnCV {
+    background-color: teal;
+    color:white;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px 1px 3px 0px black;
+    border-radius: 10px;
+    font-size: 2em;
+}
+#cv-3 .bio {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.5em;
+    border-bottom: solid 3px #006093;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+}
+#cv-3 .important {
+    color: #006093;
+}
+/*======================================================================================================================*/
+.buttonCV {
+    margin: 0 auto;
+    margin-top: 20px;
+    text-align: center;
+}
